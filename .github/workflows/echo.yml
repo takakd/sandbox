@@ -3,9 +3,8 @@ name: Echo
 on: [push]
 
 jobs:
-  greeting:
+  echo:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
     - name: echo
       run: echo Hi!
